@@ -27,3 +27,4 @@ Optional Power BI formulas are a documented starting point; they have not been e
 - Added an original-data Parquet snapshot and checksum/row-count manifest for cloud startup. Fresh instances restore a local order mart atomically; existing databases are preserved.
 - Full test suite after startup changes: **14 passed**, including cold restoration, corruption rejection and cleanup after a row-count mismatch.
 - Verified the full 99,441-row deployment snapshot restores the same dashboard summary metrics and seller screening flags as the analytical build.
+- Deployed the full application on Streamlit Community Cloud with Python 3.12 and confirmed that the hosted dashboard displays the expected order count, delivery metrics and seller screening count. The repository was made public with explicit user approval.

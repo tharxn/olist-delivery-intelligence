@@ -2,6 +2,8 @@
 
 An end-to-end analytics project answering: **Which sellers and delivery routes should an operations team investigate first?**
 
+**[Open the hosted dashboard](https://olist-delivery-intelligence-tharxn.streamlit.app/)** · [Source repository](https://github.com/tharxn/olist-delivery-intelligence)
+
 Built with **Python, SQL, DuckDB, Plotly and Streamlit**. The analytical work lives in readable SQL and Python. Power BI exports are included as an optional next step.
 
 The interface uses bundled **Inter** fonts, readable chart typography, touch-friendly tabs and a collapsible filter drawer. Metric cards and chart panels adapt to the available content width, including narrow browser panels. The standalone HTML report embeds Inter for offline use. Font attribution and the SIL Open Font License are included under `static/fonts/`.
@@ -89,4 +91,4 @@ Source: **Brazilian E-Commerce Public Dataset by Olist**, historical purchases f
 
 The data does not identify the logistics carrier, provide operating costs, measure profit, or contain a randomized delivery intervention. Seller comparisons are not fully adjusted for route/product mix. Missing reviews, reviews submitted before delivery, and incomplete boundary periods matter.
 
-Original code: MIT license. Source data and derived data/visualizations: **CC BY-NC-SA 4.0**; see [data attribution](DATA_LICENSE.md). No dashboard has been published to an external service.
+Original code: MIT license. Source data and derived data/visualizations: **CC BY-NC-SA 4.0**; see [data attribution](DATA_LICENSE.md). The full Streamlit application is published on Streamlit Community Cloud.

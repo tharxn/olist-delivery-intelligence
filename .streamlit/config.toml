@@ -1,0 +1,38 @@
+[theme]
+base = "light"
+primaryColor = "#157B74"
+backgroundColor = "#F7F8FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#182B42"
+font = "Inter"
+headingFont = "Inter"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["2rem", "1.5rem", "1.125rem", "1rem", "0.875rem", "0.875rem"]
+headingFontWeights = [650, 650, 600, 600, 600, 600]
+metricValueFontSize = "1.875rem"
+metricValueFontWeight = 600
+borderColor = "#E3E9EF"
+baseRadius = "0.75rem"
+buttonRadius = "0.5rem"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/InterVariable.woff2"
+weight = "100 900"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/InterVariable-Italic.woff2"
+weight = "100 900"
+style = "italic"
+
+[server]
+enableStaticServing = true
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

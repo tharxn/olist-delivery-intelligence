@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "one_fact_row_per_order",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "unique_order_ids",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "non_null_order_ids",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "unique_item_keys",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "unique_customer_keys",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "unique_seller_keys",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "unique_product_keys",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "items_have_orders",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "orders_have_customers",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "items_have_products",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "items_have_sellers",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reviews_have_orders",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "payments_have_orders",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "valid_item_money",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "valid_payment_money",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "valid_purchase_timestamps",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "valid_review_scores",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "item_value_reconciles_to_source",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "freight_reconciles_to_source",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "payments_reconcile_to_source",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "late_flags_have_valid_denominator",
+      "value": 0.0,
+      "passed": true
+    },
+    {
+      "name": "multi_seller_orders_not_attributed",
+      "value": 0.0,
+      "passed": true
+    }
+  ],
+  "observations": {
+    "additional_reviews_resolved": 551,
+    "delivered_orders_excluded_from_sla": 8,
+    "non_delivered_orders": 2963,
+    "multi_seller_orders": 1278,
+    "orders_without_items": 775,
+    "orders_without_payments": 1,
+    "orders_without_reviews": 768,
+    "payment_mismatches_over_5_centavos": 1032,
+    "review_answer_before_delivery": 4654,
+    "delivery_before_purchase": 0,
+    "invalid_carrier_sequence": 189,
+    "unknown_primary_categories": 2185
+  }
+}

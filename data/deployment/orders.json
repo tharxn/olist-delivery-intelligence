@@ -1,0 +1,9 @@
+{
+  "source": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
+  "license": "CC BY-NC-SA 4.0",
+  "table": "analytics.fact_orders",
+  "row_count": 99441,
+  "sha256": "e531864a3fd4decbb423af207a709e133b05d849ab3ec4b8423d0deb25f94f9e",
+  "source_archive_sha256": "967e41e04fc306fe604e2a693f488995a8b41e5047418f8a5c8e4abd6deca784",
+  "description": "Validated, typed order mart; no raw review text or original archive is bundled."
+}
